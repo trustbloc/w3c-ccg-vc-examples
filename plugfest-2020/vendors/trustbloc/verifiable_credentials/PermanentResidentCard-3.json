@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/citizenship/v1"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "PermanentResidentCard"
+  ],
+  "credentialSubject": {
+    "id": "did:key:z6Mkte9e5E2GRozAgYyhktX7eTt9woCR4yJLnaqC88FQCSyY",
+    "type": [
+      "PermanentResident",
+      "Person"
+    ],
+    "givenName": "JOHN",
+    "familyName": "SMITH",
+    "gender": "Male",
+    "image": "data:image/png;base64,iVBORw0KGgo...kJggg==",
+    "residentSince": "2015-01-01",
+    "lprCategory": "C09",
+    "lprNumber": "000-000-204",
+    "commuterClassification": "C1",
+    "birthCountry": "Bahamas",
+    "birthDate": "1958-08-17"
+  },
+  "issuer": "did:v1:test:nym:z6MkqaFQ7SZdWMgUkiQLvxZBpmkmYmbgAcAvXftU7jfmMWLa",
+  "issuanceDate": "2020-04-22T10:37:22Z",
+  "identifier": "83627465",
+  "name": "Permanent Resident Card",
+  "description": "Government of Example Permanent Resident Card.",
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2020-05-04T19:52:33Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..652YwqINTs3tADJr-B3Q4yhc5tpIhUWdE21pGqo1kAqbmgCh6SBWrN5aw66zYQTguQfuzsEwMjbQ-R_PD1mnCg",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:v1:test:nym:z6MkqaFQ7SZdWMgUkiQLvxZBpmkmYmbgAcAvXftU7jfmMWLa#z6MkqaFQ7SZdWMgUkiQLvxZBpmkmYmbgAcAvXftU7jfmMWLa"
+  }
+}
